@@ -7,7 +7,7 @@ from matplotlib.animation import FuncAnimation
 plt.style.use('fivethirtyeight')
 
 def animate(i):
-	data = pd.read_csv(r"C:\\Users\\khush\\PycharmProjects\\Data Generator\\data.csv")
+	data = pd.read_csv("data.csv")
 	x = data['xvalue']
 	y1 = data['newValue_1']
 	y2 = data['newValue_2']
